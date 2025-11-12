@@ -1,10 +1,11 @@
 🧩 Role-Based Authentication App (Full Stack)
+
 A modern full-stack web application demonstrating role-based authentication with User and Admin dashboards using React, Node.js, Express, and MongoDB.
 It includes secure login, signup, JWT-based authentication, CRUD operations, and role-specific features — all deployed and production-ready.
 
 🌐 Live Demo
-Frontend: 
-Backend API: 
+Frontend: https://inbotiq-assignment.onrender.com/
+Backend API: https://inbotiq-backend-4twp.onrender.com/
 
 ✨ Features
 ✅ Authentication & Authorization
@@ -50,7 +51,7 @@ Backend
 
 ⚙️ Setup & Installation
 1️⃣ Clone the Repository
-git clone https://github.com/yourusername/role-auth-app.git
+git clone https://github.com/hardikkumar4472/INBOTIQ-.git
 cd role-auth-app
 
 2️⃣ Setup Backend
@@ -61,7 +62,7 @@ Create a .env file in the backend folder:
 
 PORT=8000
 MONGO_URI=your_mongodb_connection_string
-FRONTEND_URL=http://localhost:5173
+FRONTEND_URL
 JWT_ACCESS_SECRET=supersecretaccess123
 JWT_REFRESH_SECRET=supersecretrefresh123
 ACCESS_TOKEN_EXPIRES=15m
@@ -72,8 +73,6 @@ Run the backend:
 npm run dev
 
 
-The server will start at
-👉 http://localhost:8000
 
 3️⃣ Setup Frontend
 cd frontend
@@ -82,17 +81,13 @@ npm install
 
 Create a .env file in the frontend folder:
 
-VITE_API_BASE_URL=http://localhost:8000
-VITE_SOCKET_URL=http://localhost:8000
+VITE_API_BASE_URL
+VITE_SOCKET_URL
 
 
 Run the frontend:
 
 npm run dev
-
-
-The app will start at
-👉 http://localhost:5173
 
 🧩 API Endpoints
 🔐 Authentication Routes
@@ -169,9 +164,6 @@ Deploy — backend auto-starts on push.
 
 👨‍💻 Author
 Hardik Kumar
-
-
-🐙 GitHub
 
 ✉️ hardikv715@gmail.com
 
